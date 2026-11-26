@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Только для отладочной сборки: обычный http разрешён везде, чтобы проверять с тестовым
+     сервером на ПК по домашнему Wi-Fi. Релизная сборка использует строгий файл из src/main. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

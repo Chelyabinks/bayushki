@@ -1,0 +1,28 @@
+# Android
+android/.gradle/
+android/build/
+android/*/build/
+android/local.properties
+android/.idea/
+*.iml
+.kotlin/
+
+# Подпись — НИКОГДА не коммитить
+*.jks
+*.keystore
+android/keystore.properties
+
+# Сервер
+server/.venv/
+server/data/
+server/logs/
+server/config.ps1
+__pycache__/
+.pytest_cache/
+*.apk
+
+# IDE
+.idea/
+
+# Личные заметки — только на этом ПК
+README.private.md
